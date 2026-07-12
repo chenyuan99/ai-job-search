@@ -1,0 +1,20 @@
+{
+  "name": "swelist-cli",
+  "version": "1.0.0",
+  "description": "CLI for searching SWE List tech internship and new-grad positions from SimplifyJobs GitHub repositories — no authentication, zero runtime dependencies.",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "swelist-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "latest"
+  }
+}
