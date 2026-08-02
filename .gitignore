@@ -70,6 +70,9 @@ gmail_sync/
 # Upskill reports (personal output)
 upskill/*.md
 
+# Generated reports (personal output from /funnel-report)
+reports/
+
 # Agent skills: track the source, ignore only deps and logs.
 # (A blanket `.agents/` ignore silently drops the job-search CLI skills from the repo.)
 .agents/**/node_modules/
